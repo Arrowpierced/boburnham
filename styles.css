@@ -1,0 +1,417 @@
+/* Header */
+
+.header {
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: skyblue;
+    
+  }
+
+  .header h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .header p {
+    color: black;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Navbar */
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20%;
+    width: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 1000; 
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    padding: 10px 80px;
+    color: black;
+  }
+
+  .navbar a {
+    text-decoration: none;
+  
+    color: white;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+  
+/* First Row */
+
+  .first-row {
+    display: flex;
+    display: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  /* Song */
+  
+  .song {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 50px;
+   
+  }
+
+/* Tips for Straining Pasta */
+
+.pasta {
+  background-color: whitesmoke;
+  text-align: center;
+  border: 5px dotted skyblue;
+  width: 500px;
+}
+
+.pasta li {
+ list-style: none; 
+}
+
+.pasta img {
+  text-align: center;
+  display: block;
+  align-items: center;
+  margin: auto;
+  width: auto;
+  height: 200px;
+}
+
+/* Colored Pencil Drawings */
+
+.drawings {
+  display: inline;
+  text-align: center;
+  width: auto;
+  border: 5px ridge skyblue; 
+}
+
+.colors {
+  padding-top: 50px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.drawing {
+  padding: 10px;
+  color: white;
+  flex-basis: 300px;
+}
+
+.drawing img {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 200px;
+}
+
+
+  /* Doctors */
+
+.got-doctors {
+  margin-top: 50px;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+.doctors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.provider-list-row {
+  align-items: flex-start;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 20px;
+  max-width: 1000px;
+  padding: 10px;
+  position: relative;
+  width: auto;
+  border: 1px solid skyblue;
+}  
+
+.provider-list-left-column {
+  align-items: center;
+  color: black;
+  display: flex;
+  line-height: 20px;
+  text-size-adjust: 100%;
+  width: 500px;
+}
+
+
+.provider-list-profile {
+  box-sizing: border-box;
+  display: block;
+  width: 300px;
+}
+
+.provider-list-profile img {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 200px;
+}
+
+.provider-location {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  text-align: center;
+}
+
+.location h3 {
+  box-sizing: border-box;
+  color: black;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center;
+  text-size-adjust: 100%;
+}
+
+button {
+  background-color: skyblue;
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+} 
+
+/* Fantasy Sports */
+
+.fantasy-sports h2 {
+  border-bottom-color: rgb(51, 51, 51);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  display: inline;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+  padding-bottom: 4px;
+  text-align: left;
+  text-size-adjust: 100%;
+  white-space: nowrap;
+}
+
+.top-news h4 {
+  display: block;
+  text-align: left;
+  margin: auto;
+}
+
+.fantasy-sports {
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  width: auto;
+} 
+
+.section-header {
+  border-bottom-color: skyblue;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  box-sizing: border-box;
+  color: rgb(21, 21, 21);
+  display: block;
+  flex-basis: 0px;
+  flex-grow: 1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  margin-bottom: 15px;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  text-overflow: ellipsis;
+  text-size-adjust: 100%;
+  white-space: nowrap;
+  font-family: poppins, sans-serif;
+}
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  width: auto;
+}
+
+.article {
+  box-sizing: border-box;
+  width: 300px;
+  height: 500px;
+  border: 2px solid whitesmoke;
+  border-radius: 25px;
+  box-shadow: 2px 2px gray;
+  margin: 25px;
+}
+
+.article img {
+  border-radius: 25px 25px 0px 0px;
+  width: 100%;
+  height: 50%;
+}
+
+.prophet h6 {
+  text-align: left;
+  margin: 10px 25px 25px 10px;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 15px;
+}
+
+.whinging h6 {
+  text-align: left;
+  margin: 10px 25px 25px 10px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+
+.voice h6 {
+  text-align: left;
+  margin: 10px 25px 25px 10px;
+  font-size: 15px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.hogwarts h6 {
+  text-align: left;
+  margin: 10px 25px 25px 10px;
+  font-family: 'Varela Round', cursive;
+  font-size: 15px;
+}
+
+.quibbler h6 {
+  text-align: left;
+  margin: 10px 25px 25px 10px;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+.article p {
+  margin: 5px 10px 10px 5px;
+  line-height: 20px;
+
+}
+
+
+
+/* Famous Women's Feet */
+
+.feet {
+    display: block;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .women {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .woman {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    margin: 50px;
+  }
+  
+  .feet img {
+    display: block;
+    text-align: center;
+    width: auto;
+    height: 300px;
+    border: 1px solid black;
+  }
+
+  .feet h4 {
+    display: block;
+    min-width: 240px;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .feet h6 {
+    background-color: skyblue;
+    box-sizing: border-box;
+    box-shadow: 1px 1px;
+    display: block;
+    position: relative;
+    text-align: center;  
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    top: 250px;
+    left: 125px;
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+  }
+
+  .face img {
+    box-sizing: border-box;
+    box-shadow: 1px 1px;
+    display: block;
+    position: relative;  
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -25px;
+    left: 150px;
+  }
+
+  .face-alba img {
+    box-sizing: border-box;
+    display: block;
+    position: relative;  
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -25px;
+    left: 250px;
+  }
+
